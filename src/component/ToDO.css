@@ -36,7 +36,7 @@
 .input-text {
   background-color: whitesmoke;
   text-align: center;
-  padding: 3px 20px;
+  padding: 1px 8px;
   width: 230px;
   font-size: 1rem;
   border-style: none;
@@ -53,4 +53,19 @@
   color: white;
   border-style: none;
   cursor: pointer;
+}
+.input-text {
+  text-align: left;
+  font-size: 1.2rem;
+  letter-spacing: 4px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(228, 100, 126);
+}
+h3 {
+  margin-top: 7%;
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(228, 100, 126);
 }

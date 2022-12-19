@@ -36,8 +36,9 @@ function ToDo() {
               onChange={addItemContent}
               value={itemList}
             />
+            <h3>List of your work</h3>
           </div>
-          <div>
+          <div className="work-list">
             <button className="button" onClick={addTask}>
               +
             </button>
