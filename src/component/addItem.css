@@ -1,0 +1,11 @@
+.delete-Item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 2rem;
+  gap: 20%;
+  margin: 0;
+  font-weight: bolder;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: aqua;
+}
