@@ -28,7 +28,7 @@ function ToDo() {
       <div className="main-form">
         <div className="heading">To Do list</div>
         <div className="adding-place">
-          <div>
+          <div className="addding-Area">
             <input
               type="text"
               placeholder="Add an item"
@@ -36,20 +36,19 @@ function ToDo() {
               onChange={addItemContent}
               value={itemList}
             />
-            <h3>List of your work</h3>
-          </div>
-          <div className="work-list">
             <button className="button" onClick={addTask}>
               +
             </button>
           </div>
-        </div>
-        <div className="list=of-items">
-          {addedItems.map((list, ind) => {
-            return (
-              <AddItem key={ind} id={ind} text={list} onSelect={deleteList} />
-            );
-          })}
+          <h3>List of your work</h3>
+
+          <div className="list=of-items">
+            {addedItems.map((list, ind) => {
+              return (
+                <AddItem key={ind} id={ind} text={list} onSelect={deleteList} />
+              );
+            })}
+          </div>
         </div>
       </div>
     </>
