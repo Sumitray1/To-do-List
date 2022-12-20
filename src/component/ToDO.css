@@ -31,7 +31,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 5%;
+  gap: 10%;
   align-items: left;
   margin-left: 20%;
 }
@@ -48,6 +48,7 @@
   font-weight: bold;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: left;
+  outline: none;
 }
 .button {
   font-size: 2.5rem;
@@ -59,6 +60,7 @@
   border-style: none;
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-left: 7%;
 }
 
 h3 {
